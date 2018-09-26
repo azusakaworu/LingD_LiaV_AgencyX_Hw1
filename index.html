@@ -1,71 +1,128 @@
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
+<!-- <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">-->
+ <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     
-    <title>Agency X</title>
+    <title>Ding Vernaet Portfolio</title>
     <link rel="stylesheet" href="css/foundation.css">
-    <!--no more css reset needed, foundation comes with normalize.css -->
     <link rel="stylesheet" href="css/app.css">
   </head>
-  <body>
-   <!--row act as our containers no container class or id needed,will have multiple containers-->
-   <h1 class="hide">Profolio</h1>
+  <section id="siteContainer">
+   <h1 class="hide">Portfolio</h1>
     
     <header class="row">
-    	<nav class="small-12 large-7 large-push-5 columns">
+    	<nav class="small-12 large-8 large-push-7 columns">
     	   <h2 class="hide">Main Navigation</h2>
-    		<p class="boxHelper">Nav</p>
+    		<ul id="mainNav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
     	</nav>
-    	<!--when use pull or push change order  ,use offset replaced the centered/uncentered-->
-    	<div class="small-6 small-offset-3 large-offset-0 large-2 large-pull-7 columns end">
-			<p class="boxHelper">logo</p>
+    	<div class="small-12 large-4 large-pull-8 columns">
+			<img src="images/logo.png" id="logo" alt="Logo">
 		</div>
-		
     </header>
     
-    <div id="welcomText">
-    <!--full width image-->
-    	<section class="row"><!--let's go back to using grid-->
-    		<div class="small-12 large-10 large-centered columns">
+    <div id="banner">
+    	<section class="row">
+    		<div class="small-12 large-12 large-centered columns">
     			<h2 class="hide">Introduction</h2>
-    			<p class="boxHelper">wlcom text Area</p>
+    			<h2>Welcome...</h2>
+    			<p>Hello
+            <br>
+            I am  Lia Vernaet
+            <br>
+            I am Ling Ding
+            <br>
+      Welcome to our portfolio website!</p>
     		</div>
     	</section>
     </div>
-    
-    <section class="row"><h2 class="hide">works</h2>
-    	<div class="small-12 large-4 columns">
-    	<p class="boxHelper">images1</p>
-    	</div>
-    	
-    	
-    	<div class="small-12 large-4 columns"><p class="boxHelper">images2</p></div>
-    	
-    	
-    	<div class="small-12 large-4 columns"><p class="boxHelper">images3</p></div>
-    	
-    </section>
-    
-    
+
+
     <section class="row">
-       <h2 class="hide">about us</h2>
-         <div class="small-12 large-6 columns"><p class="boxHelper">Ling Ding</p></div>
-         <div class="small-12 large-6 columns"><p class="boxHelper">Lia Vernaet</p></div>
+       <h2 class="hide">Ling Ding</h2>
+         <div class="small-12 large-10 large-centered columns" id="lingDiv">
+         	<h2 id="lingName">Ling Ding</h2>
+         	<p class="lingLiaText">I'm a photographer and graphics designer & front-end developer, currently located in London, Ontario. I have 2+ years of studying in an interactive media design program from Fanshawe college.</p>
+         	
+         </div>
     </section>
+
+
+      <section class="row">
+       <h2 class="hide">Lia Vernaet</h2>
+         <div class="small-12 large-10 large-centered columns" id="liaDiv">
+         <h2 id="liaName">Lia Vernaet</h2>
+         <p class="lingLiaText">I'm a graphic designer and animator. I have studied web development, graphic design, and 3D animation at Fanshawe college for over two years, and have additional experience in 2D animation and video editing.</p>
+         </div>
+    </section>
+
+    
+    
+    <section class="row" id="iconRow"><h2 class="hide">icons</h2>
+    	<div class="small-12 large-2 large-offset-1  columns">
+    	<img src="images/camera.png" class="icon" alt="icon">
+    	<p class="iconText">Photography</p>
+    	</div>
+		<div class="small-12 large-2  columns">
+    	<img src="images/pencil.png" class="icon" alt="icon">
+    	<p class="iconText">Sketching</p>
+    	</div>
+    	<div class="small-12 large-2  columns">
+    	<img src="images/animation.png" class="icon" alt="icon">
+    	<p class="iconText">Animation</p>
+    	</div>
+    	<div class="small-12 large-2  columns">
+    	<img src="images/videoicon.png" class="icon" alt="icon">
+    	<p class="iconText">Video</p>
+    	</div>
+    	<div class="small-12 large-2  large-pull-1 columns">
+    	<img src="images/paint.png" class="icon" alt="icon">
+    	<p class="iconText">Graphic Design</p>
+    	</div>
+    </section>
+    
+
+    
+    
+        <section class="row" id="lingLogo"><h2 class="hide">works</h2>
+    	<div class="small-12 large-8 large-centered  columns"><p class="boxHelper"><img src="images/Ling_logodesign.png" alt="Ling's logo"></div>
+    </section>
+
+
+    <div class ="row" id="videoArea">
+      <nav class="small-12 large-12 columns">
+        <h2 class="hide">video</h2>
+        <video width="854" height="480" controls>
+          <source src="video/desktop.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+      </nav>
+ </div>
+
+
+         <div class ="row">
+         <nav class="small-12 large-12 columns" id="textArea">
+           <h2 class="hide">text</h2>
+         	<p id="textAreaP">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac commodo felis. Curabitur tellus justo, sagittis sit amet mi in, condimentum molestie enim. Curabitur egestas diam leo, ac pulvinar tortor tincidunt quis. Quisque molestie nisl id enim consequat mattis id vel nulla. Praesent hendrerit rhoncus eleifend. Nullam bibendum imperdiet diam, hendrerit suscipit enim fringilla eu. Donec tortor lacus, sollicitudin eu egestas in, sagittis quis ipsum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+         </nav>
+	  </div>
+    
     
      <footer id="footerCon">
-       <div class="row">
-         <nav class="small-12 columns">
-           <h2 class="hide">Mian Footer</h2>
-         	<p class="boxHelper">Footer</p>
+       <section class="row">
+         <nav class="small-12 large-12 columns">
+           <h2 class="hide">Main Footer</h2>
+         	<p id="footerText">Copyright 2018 Ding Vernaet</p>
          </nav>
-       	
-       </div>
-    	
+       </section>
     </footer>
     
     
@@ -74,5 +131,5 @@
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
-  </body>
+  </section>
 </html>

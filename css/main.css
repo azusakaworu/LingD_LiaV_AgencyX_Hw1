@@ -1,0 +1,113 @@
+header {
+  position: fixed;
+  background-color: #acd373; }
+
+#banner h2, #banner p {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #fff; }
+
+#banner p {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px; }
+
+#mainNav {
+  margin: 0;
+  padding: 0;
+  width: 345px;
+  height: 45px;
+  float: right;
+  margin-left: 1200px;
+  margin-top: 40px;
+  padding-bottom: 60px; }
+
+#mainNav li {
+  float: left;
+  text-decoration: none;
+  padding-right: 10px;
+  padding-left: 20px;
+  padding-top: 20px;
+  background-color: #acd373; }
+
+ul {
+  list-style-type: none; }
+
+#mainNav li a {
+  display: inline;
+  width: 100px;
+  text-align: center;
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 16px;
+  border-radius: 7px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #82ca9c; }
+
+#banner {
+  background-color: #acd373;
+  padding-bottom: 60px;
+  padding-top: 110px; }
+
+#lingDiv, #liaDiv {
+  background-color: #fbaf5d;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px; }
+
+#lingName {
+  float: right;
+  color: #fff;
+  font-family: 'Dancing Script', cursive;
+  font-size: 70px; }
+
+#liaName {
+  float: left;
+  color: #fff;
+  font-family: 'Dancing Script', cursive;
+  font-size: 70px;
+  margin-left: 20px; }
+
+.lingLiaText {
+  color: #fff;
+  text-align: center;
+  margin-top: 110px; }
+
+.icon {
+  max-width: 80%;
+  margin: 0 auto;
+  opacity: .7; }
+
+#iconRow {
+  margin-top: 40px; }
+
+.iconText {
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  color: #7f8eff;
+  margin-left: 15px; }
+
+#worksRow {
+  background-color: #acd373;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+#textArea {
+  background-color: #ffff7a;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+#textAreaP {
+  color: #fa962a;
+  margin: 50px; }
+
+#footerCon {
+  background-color: #acd373; }
+
+#footerText {
+  float: right;
+  color: #fff; }
+
+/*# sourceMappingURL=main.css.map */

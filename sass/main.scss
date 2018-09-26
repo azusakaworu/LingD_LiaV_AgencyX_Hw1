@@ -1,0 +1,159 @@
+@import '_vars';
+
+// .boxHelper {
+// 	background-color: black;
+// 	color: white;
+// }
+
+header {
+	position: fixed;
+	// background-color: $header-color;
+	background-color: red;
+	z-index: 1;
+	
+}
+
+#banner h2, #banner p {
+	margin-top: 70px;
+	margin-bottom: 30px;
+	text-align: center;
+	color: $white-text;
+}
+
+#banner p {
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+}
+
+
+
+#mainNav {
+	margin: 0;
+	padding: 0;
+	width: 345px;
+	height: 45px;
+	float: right;
+	margin-left: 1200px;
+	margin-top: 60px;
+	
+}
+
+#mainNav li {
+	float: left;
+	text-decoration: none;
+	padding-right: 10px;
+	padding-left: 20px;
+	padding-top: 20px;
+	background-color: $header-color;
+}
+
+ul {
+	list-style-type:none;
+}
+
+#mainNav li a {
+	display: inline;
+	width: 100px;
+	text-align: center;
+	padding: 8px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 16px;
+	border-radius: 7px;
+	text-decoration: none;
+	color: $white-text;
+	background-color: $button-color;
+}
+
+#banner {
+	background-color: $header-color;
+	padding-bottom: 60px;
+	padding-top: 110px;
+}
+
+#lingDiv, #liaDiv {
+	background-color: $about-div;
+	margin-top: 20px;
+	padding: 20px;
+	border-radius: 10px;
+}
+#lingName {
+	float: right;
+	color: $white-text;
+	font-family: 'Dancing Script', cursive;
+	font-size: 70px;
+}
+
+#liaName {
+	float: left;
+	color: $white-text;
+	font-family: 'Dancing Script', cursive;
+	font-size: 70px;
+	margin-left: 20px;
+}
+
+.lingLiaText {
+	color: $white-text;
+	text-align: center;
+	margin-top: 110px;
+}
+
+.icon {
+
+	max-width: 80%;
+	margin: 0 auto;
+	opacity: .6;
+}
+
+
+#iconRow {
+		margin-top: 40px;
+}
+
+.iconText {
+
+	font-family: 'Dancing Script', cursive;
+	font-size: 20px;
+	color: $icon-text;
+	margin-left: 15px;
+}
+
+#lingLogo {
+	background-color: $header-color;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 20px;
+}
+
+#videoArea {
+	text-align: center;
+	background-color: $about-div;
+	padding-left: 30px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	border-radius: 20px;
+	padding: 40px;
+}
+
+#textArea {
+	background-color: $text-background;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	border-radius: 20px;
+	margin-bottom: 30px;
+}
+
+#textAreaP {
+	color: $orange-text;
+	margin: 50px;
+}
+
+#footerCon {
+	background-color: $header-color;
+}
+
+#footerText {
+	float: right;
+	color: $white-text;
+	
+}

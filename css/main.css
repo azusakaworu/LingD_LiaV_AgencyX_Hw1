@@ -1,0 +1,180 @@
+/*colors
+
+#82ca9c ---green
+
+#fbaf5d ----orange
+*/
+/*General rules here for elements*/
+body {
+  background-color: white; }
+
+h2 {
+  padding: 50px;
+  font-size: 50px;
+  color: black;
+  font-family: 'Dancing Script', cursive;
+  text-align: center; }
+
+p {
+  color: #604A4A;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 20px; }
+
+#indexPage, #aboutPage, #workPage {
+  margin-bottom: 100px; }
+
+/*header goes here*/
+#headerCon {
+  background-color: white;
+  /*  position: fixed;*/
+  /*z-index: 1;*/ }
+
+#mainNav {
+  margin: 0;
+  padding: 0;
+  /* width: 345px;*/
+  height: 45px;
+  float: right;
+  margin-top: 60px; }
+
+#mainNav li {
+  float: left;
+  list-style-type: none;
+  text-decoration: none;
+  padding-right: 10px;
+  padding-left: 20px;
+  padding-top: 20px; }
+
+ul {
+  list-style-type: none; }
+
+#mainNav li a {
+  display: inline;
+  width: 100px;
+  text-align: center;
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 16px;
+  border-radius: 7px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #82ca9c; }
+
+#mainNav li a:hover {
+  background-color: white;
+  color: #82ca9c; }
+
+#logo {
+  margin-top: -100px;
+  max-width: 200px;
+  margin-left: 100px; }
+
+.button {
+  background-color: #8ea56d; }
+
+.button:hover {
+  background-color: #215445; }
+
+/*index page start here--------------*/
+#banner {
+  /*background-color: #82ca9c;*/
+  background: url(../images/sakura.png); }
+
+#banner h2, #banner p {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: black; }
+
+#banner p {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px; }
+
+#banner {
+  /*background-color: #acd373;*/
+  padding-bottom: 60px;
+  padding-top: 110px; }
+
+/*About page start--------------*/
+#lingDiv, #liaDiv {
+  background-color: #82ca9c;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px; }
+
+#lingName {
+  float: right;
+  color: #fff;
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px; }
+
+#liaName {
+  float: left;
+  color: #fff;
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  margin-left: 20px; }
+
+.lingLiaText {
+  color: #fff;
+  text-align: center;
+  margin-top: 110px; }
+
+/*icon section*/
+.icon {
+  max-width: 80%;
+  margin: 0 auto;
+  opacity: .6; }
+
+.icon:hover {
+  background-color: #82ca9c; }
+
+#iconRow {
+  margin-top: 40px; }
+
+.iconText {
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  color: gray;
+  margin-left: 15px; }
+
+/*work page start --------------------------*/
+#lingLogo {
+  /* background-color: #acd373;*/
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px; }
+
+#videoArea {
+  text-align: center;
+  /* background-color: #fbaf5d;*/
+  padding-left: 30px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border-radius: 20px;
+  padding: 40px; }
+
+/*contact page start --------------------*/
+#formPartten {
+  background: url(../images/sakura.png);
+  /* padding-top: 30px;
+   padding-bottom: 50px;
+   border-radius: 20px;
+   margin-bottom: 30px;*/ }
+
+#contactForm {
+  padding: 10px; }
+
+/*#textAreaP {
+  color: #fa962a;
+  margin: 50px; }*/
+/*footer goes here*/
+#footerCon {
+  background-color: #82ca9c; }
+
+#footerText {
+  float: right;
+  color: black; }
+
+/*# sourceMappingURL=main.css.map */

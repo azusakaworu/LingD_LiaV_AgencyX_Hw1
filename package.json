@@ -1,0 +1,17 @@
+{
+  "name": "LingD_LiaV_AgencyX_Hw1-master",
+  "version": "1.0.0",
+  "description": "My team project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "team"
+  ],
+  "author": "Lia Vernaet and Ling Ding",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-sass": "^4.0.1"
+  }
+}

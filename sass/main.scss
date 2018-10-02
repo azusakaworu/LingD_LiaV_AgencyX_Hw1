@@ -215,3 +215,156 @@ ul {
 #footerText {
   float: right;
   color: black;}
+
+
+  /*media queries*/
+  @media only screen and (max-width: 640px) {
+    
+    header {
+        // background-color: $header-color;
+        background-color:$header-color;
+        position: absolute;
+        
+    }
+
+    #mainNav {
+        margin: 0;
+        padding: 0;
+        width: 745px;
+        height: 45px;
+        float: right;
+        text-align: center;
+        
+        
+        
+    }
+
+    #banner h2, #banner p {
+        margin-top: 70px;
+        margin-bottom: 30px;
+        text-align: center;
+        color: $white-text;
+    }
+    
+    #banner p {
+        font-family: 'Dancing Script', cursive;
+        font-size: 30px;
+    }
+    
+    
+    
+    #mainNav {
+        margin: 0;
+        padding: 0;
+        width: 345px;
+        height: 45px;
+        float: right;
+        margin-left: 1200px;
+        margin-top: 60px;
+        
+    }
+    
+    #mainNav li {
+        float: left;
+        text-decoration: none;
+        padding-right: 10px;
+        padding-left: 20px;
+        padding-top: 20px;
+        background-color: $header-color;
+    }
+    
+    ul {
+        list-style-type:none;
+    }
+    
+    #mainNav li a {
+        display: inline;
+        width: 100px;
+        text-align: center;
+        padding: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 16px;
+        border-radius: 7px;
+        text-decoration: none;
+        color: $white-text;
+        background-color: $button-color;
+    }
+    
+    #banner {
+        background-color: $header-color;
+        padding-bottom: 20px;
+        padding-top: 150px;
+    }
+    
+    #lingDiv, #liaDiv {
+        background-color: $about-div;
+        margin-top: 20px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    #lingName {
+        float: none;
+        color: $white-text;
+        font-family: 'Dancing Script', cursive;
+        font-size: 70px;
+        text-align: center;
+    }
+    
+    #liaName {
+        float: none;
+        color: $white-text;
+        font-family: 'Dancing Script', cursive;
+        font-size: 70px;
+        text-align: center;
+    }
+    
+    .lingLiaText {
+        color: $white-text;
+        text-align: center;
+        margin-top:20px;
+        
+    }
+    
+    
+    #lingLogo {
+      text-align: center;
+        background-color: $header-color;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-radius: 20px;
+    }
+    
+    #videoArea {
+        text-align: center;
+        
+        padding-left: 30px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        border-radius: 20px;
+        padding: 40px;
+    }
+    
+    #textArea {
+        background-color: $text-background;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+    }
+    
+    #textAreaP {
+        color: $about-div;
+        margin: 50px;
+    }
+    
+
+  }
+
+  @media only screen and (max-width: 50em) {
+
+  #videoArea{width: 50%;}
+  #iconRow{width: 20%;}
+  .iconText{font-size: 10px;}
+  .icon{display: inline;}
+  }

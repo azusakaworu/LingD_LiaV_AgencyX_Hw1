@@ -10,7 +10,9 @@
     
     <title>Ding Vernaet Portfolio</title>
     <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
+		<link rel="stylesheet" href="css/app.css">
+		<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+		<script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
   </head>
   <section id="siteContainer">
    <h1 class="hide">Portfolio</h1>
@@ -131,16 +133,24 @@
     <section id="workPage" class="row">
         <section  id="lingLogo"><h2 class="hide">works</h2>
     	<div class="small-12 large-8 large-centered  columns">
+				<a href="images/Ling_logodesign.png" data-lightbox="mygallery" data-title="Ling's work , a logo was designed for a photographer.">
+			
+					<img id="imgS" src="images/Ling_logodesign_small.png" alt="Ling's logo2" >
+				</a>
+	
+	
+
 		
-		<img src="images/Ling_logodesign.png" alt="Ling's logo"></div>
+	</div>
     </section>
 
 
     <div  id="videoArea">
       <nav class="small-12 large-12 columns">
-        <h2 class="hide">video</h2>
-        <video width="854" height="480" controls>
-          <source src="video/desktop.mp4" type="video/mp4">
+				<h2 class="hide">video</h2>
+			
+        <video width="854" height="480" controls >
+          <source src="video/desktop.mp4" type="video/mp4" data-title="Lia's work, did for a popular website.">
         Your browser does not support the video tag.
         </video>
       </nav>

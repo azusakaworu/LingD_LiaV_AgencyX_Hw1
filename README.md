@@ -72,6 +72,12 @@ And install gulp-sass
 npm install --save-dev gulp-watch-sass
 ```
 
+And install gulp-serve
+
+```
+npm i --save-dev gulp-serve
+```
+
 
 
 

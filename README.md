@@ -11,50 +11,45 @@ These instructions will get you a copy of the project up and running on your loc
 sass npm gulp gitignore
 
 ```
-Give examples
+npm install --save-dev gulp-watch-sass
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+install node.js gulp
 
 ```
-Give the example
+cnpm install gulp -g
 ```
 
-And repeat
+And local gulp
 
 ```
-until finished
+cnpm install --save-dev
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+And built gulpfile.js 
+
+```
+var gulp = require('gulp');
+var sass = require('gulp-sass');
+
+gulp.task('sass',function(){
+    return gulp.src('./sass/*.scss')
+    .pipe(sass({outputStyle:'compressed'}).on('error',sass.logError))
+    .pipe(gulp.dest('./css'));
+}
+
+);
+
+```
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+npm install --save-dev gulp-watch-sass
 
-### Break down into end to end tests
 
-Explain what these tests test and why
 
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
@@ -78,10 +73,6 @@ See also the list of [contributors](https://github.com/your/project/contributors
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+fanshawe.copyright
 
-## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
